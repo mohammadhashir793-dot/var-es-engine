@@ -23,20 +23,20 @@ teams use to certify VaR models.
 
 ## 3. System Architecture
 ```
-                ┌─────────────────────┐
-                │   Yahoo Finance API   │
+                ┌──────────────────────┐
+                │   Yahoo Finance API  │
                 └──────────┬───────────┘
                            │
                 ┌──────────▼───────────┐
-                │  MarketDataLoader     │  (fetch + validate raw prices)
+                │    MarketDataLoader  │   (fetch + validate raw prices)
                 └──────────┬───────────┘
                            │
                 ┌──────────▼───────────┐
-                │   DataCleaner         │  (NaN handling, log returns)
+                │      DataCleaner     │   (NaN handling, log returns)
                 └──────────┬───────────┘
                            │
                 ┌──────────▼───────────┐
-                │     VaREngine         │  (Historical / Parametric / Monte Carlo)
+                │       VaREngine     │  (Historical / Parametric / Monte Carlo)
                 └──────────┬───────────┘
                            │
          ┌─────────────────┼─────────────────┐
