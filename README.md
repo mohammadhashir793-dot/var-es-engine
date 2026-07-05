@@ -1,7 +1,7 @@
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mohammadhashir793-dot/var-es-engine/blob/main/VaR_ES_Engine.ipynb)
 
 # var-es-engine
-Institutional-grade Value-at-Risk and Expected Shortfall engine implementing Historical, Parametric, and Monte Carlo methods with Kupiec backtesting
+Portfolio Value-at-Risk and Expected Shortfall Measurement System implementing Historical, Parametric, and Monte Carlo methods with Kupiec backtesting
 [VaR_ES_Engine_Project_Blueprint.md](https://github.com/user-attachments/files/29677503/VaR_ES_Engine_Project_Blueprint.md)
 
 # Value-at-Risk & Expected Shortfall Engine — Full Project Blueprint
