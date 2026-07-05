@@ -36,20 +36,20 @@ teams use to certify VaR models.
                 └──────────┬───────────┘
                            │
                 ┌──────────▼───────────┐
-                │       VaREngine     │  (Historical / Parametric / Monte Carlo)
+                │       VaREngine      │  (Historical / Parametric / Monte Carlo)
                 └──────────┬───────────┘
                            │
-         ┌─────────────────┼─────────────────┐
-         │                                     │
-┌────────▼─────────┐                ┌──────────▼──────────┐
-│  VaRBacktester     │                │   Visualization Layer │
-│  (Kupiec POF test) │                │   (matplotlib charts) │
-└────────┬───────────┘                └──────────┬───────────┘
-         │                                        │
-         └───────────────┬────────────────────────┘
+         ┌─────────────────┼─────────────────────┐
+         │                                       │
+┌────────▼───────────┐                ┌──────────▼─────────────┐
+│  VaRBacktester     │                │   Visualization Laye   │
+│  (Kupiec POF test) │                │   (matplotlib charts)  │
+└────────┬───────────┘                └────────────┬───────────┘
+         │                                         │
+         └────────────────┬────────────────────────┘
                           │
-                ┌─────────▼──────────┐
-                │  Consolidated Report │  (CSV + console dashboard)
+                ┌─────────▼───────────┐
+                │  Consolidated Report│  (CSV + console dashboard)
                 └─────────────────────┘
 ```
 
